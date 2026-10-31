@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip -q "00-PixelBezel-v3.3-edge-volume.zip"
+      - run: unzip -q "00-PixelBezel-v3.4-bezel-blend.zip"
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
