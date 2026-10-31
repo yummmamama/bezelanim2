@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip -q "00-PixelBezel-v2.7-angular-edge-squircle.zip"
+      - run: unzip -q "00-PixelBezel-v2.8-flashlight-island.zip"
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
