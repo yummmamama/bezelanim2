@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip -q "00-PixelBezel-v2.9-live-activities.zip"
+      - run: unzip -q "00-PixelBezel-v3.0-ios-capsule.zip"
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
