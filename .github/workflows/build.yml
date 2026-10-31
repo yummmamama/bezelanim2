@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip -q "PixelBezel (1).zip"
+      - run: unzip -q "00-PixelBezel-v2.7-angular-edge-squircle.zip"
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
