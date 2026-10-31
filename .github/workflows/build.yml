@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip -q "00-PixelBezel-v3.2-flashlight-glow.zip"
+      - run: unzip -q "00-PixelBezel-v3.3-edge-volume.zip"
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
