@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip -q *.zip
+      - run: unzip -q "$(ls -1 *.zip | head -n 1)"
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
